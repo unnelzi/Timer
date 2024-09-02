@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Timer</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="current-time" id="current-time"></div>
+      <div class="time-input">
+        <button id="start-pause-timer">Start</button>
+        <button id="reset-timer">Reset</button>
+      </div>
+
+      <div class="timer">
+        <div class="timer__time">
+          <span class="timer__time-increment" id="increment-hours">+</span>
+          <span class="timer__time-value" id="timer-hours">00</span>
+          <span class="timer__time-label">h</span>
+          <span class="timer__time-decrement" id="decrement-hours">-</span>
+        </div>
+        <div class="timer__time">
+          <span class="timer__time-increment" id="increment-minutes">+</span>
+          <span class="timer__time-value" id="timer-minutes">00</span>
+          <span class="timer__time-label">m</span>
+          <span class="timer__time-decrement" id="decrement-minutes">-</span>
+        </div>
+        <div class="timer__time">
+          <span class="timer__time-increment" id="increment-seconds">+</span>
+          <span class="timer__time-value" id="timer-seconds">00</span>
+          <span class="timer__time-label">s</span>
+          <span class="timer__time-decrement" id="decrement-seconds">-</span>
+        </div>
+      </div>
+
+      <div class="progress-bar" id="progress-bar"></div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
