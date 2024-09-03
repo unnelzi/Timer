@@ -1,95 +1,95 @@
 body {
-    font-family: sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #2e2e2e;
-  }
-  
-  .container {
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    position: relative;
-  }
-  
-  .current-time {
-    margin-bottom: 20px;
-    font-size: 1.5em;
-  }
-  
-  .time-input {
-    margin-bottom: 20px;
-  }
-  
-  .time-input label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  .time-input input {
-    width: 100px;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .time-input button {
-    margin-left: 10px;
-    padding: 5px 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #4CAF50;
-    color: white;
-    cursor: pointer;
-  }
-  
-  .timer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    font-size: 3em;
-  }
-  
-  .timer__time {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .timer__time-value {
-    font-size: 4em;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  .timer__time-label {
-    font-size: 1.2em;
-    color: #666;
-  }
-  
-  .timer__time-increment {
-    cursor: pointer;
-    font-size: 1.5em;
-    margin-bottom: 5px; /* Added margin-bottom */
-  }
-  
-  .timer__time-decrement {
-    cursor: pointer;
-    font-size: 1.5em;
-    margin-top: 5px; /* Added margin-top */
-  }
-  
-  .progress-bar {
-    position: absolute; /* Added position: absolute */
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 10px;
-    background-color: #4CAF50;
-    border-radius: 5px;
-  }
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #2e2e2e;
+}
+
+.container {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+}
+
+.current-time {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.time-input {
+  margin-bottom: 20px;
+}
+
+.time-input label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.time-input input {
+  width: 100px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.time-input button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 3em;
+}
+
+.timer__time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer__time-value {
+  font-size: 4em;
+  font-weight: bold;
+  color: #333;
+}
+
+.timer__time-label {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.timer__time-increment {
+  cursor: pointer;
+  font-size: 1.5em;
+  margin-bottom: 5px; /* Added margin-bottom */
+}
+
+.timer__time-decrement {
+  cursor: pointer;
+  font-size: 1.5em;
+  margin-top: 5px; /* Added margin-top */
+}
+
+.progress-bar {
+  position: absolute; /* Added position: absolute */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background-color: #4CAF50;
+  border-radius: 5px;
+}
