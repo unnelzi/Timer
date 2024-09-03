@@ -85,10 +85,14 @@ function incrementTime(unit, amount) {
         }
         break;
       case "minutes":
-        remainingTime += amount * 60;
+        if (remainingTime + amount <= 360000) {
+          remainingTime += amount * 60;
+        }
         break;
       case "seconds":
-        remainingTime += amount;
+        if (remainingTime + amount <= 360000) {
+          remainingTime += amount;
+        }
         break;
     }
     initialRemainingTime = remainingTime; // Update initial time
