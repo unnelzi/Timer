@@ -75,13 +75,13 @@ body {
 .timer__time-increment {
   cursor: pointer;
   font-size: 1.5em;
-  margin-bottom: 5px; /* Added margin-bottom */
+  margin-bottom: 3px; /* Added margin-bottom */
 }
 
 .timer__time-decrement {
   cursor: pointer;
   font-size: 1.5em;
-  margin-top: 5px; /* Added margin-top */
+  margin-top: 3; /* Added margin-top */
 }
 
 .progress-bar {
