@@ -80,7 +80,7 @@ function incrementTime(unit, amount) {
   if (!isRunning) {
     switch (unit) {
       case "hours":
-        if ((remainingTime + amount * 3600) <= 356400) {
+        if (remainingTime + amount <= 356400) {
           remainingTime += amount * 3600;
         }
         break;
@@ -100,7 +100,7 @@ function decrementTime(unit, amount) {
   if (!isRunning) {
     switch (unit) {
       case "hours":
-        if (remainingTime > 3599) {
+        if (remainingTime >= 3600) {
           remainingTime -= amount * 3600;
         }
         break;
